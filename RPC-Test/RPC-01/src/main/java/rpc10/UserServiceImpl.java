@@ -1,0 +1,11 @@
+package rpc10;
+
+import rpc.common.IUserService;
+import rpc.common.User;
+
+public class UserServiceImpl implements IUserService {
+    @Override
+    public User findUserById(Integer empno) {
+        return new User(1,"wc");
+    }
+}
